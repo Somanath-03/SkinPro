@@ -133,7 +133,7 @@ To train your own model:
 ---
 ## 🙋‍♀️ Authors & Contributors 
 
-- 1.Venkata Somanath Meda
-- 2.Samarth Shenoy
-- 3.Shilpi Singh 
+- Venkata Somanath Meda
+- Samarth Shenoy
+- Shilpi Singh 
 
