@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - SKINPRO</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='login_css/login&register.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>SKINPRO</h1>
+        </header>
+        <div class="signup-box">
+            <h2>Sign Up</h2>
+            <form method="POST" action="{{ url_for('register') }}">
+                <div class="textbox">
+                    <input type="text" placeholder="Username" name="username" required>
+                </div>
+                <div class="textbox">
+                    <input type="email" placeholder="Email" name="email" required>
+                </div>
+                <div class="textbox">
+                    <input type="password" placeholder="Password" name="password" required>
+                </div>
+                <button type="submit" class="btn">Sign Up</button>
+                <span>
+                    {% if login %}
+                        <span>
+                            {{ login }}
+                        </span>
+                        </span>
+                        {% else %}
+                          <span>
+                          </span>
+                        {% endif %}
+                    </span>
+                <p>Already have an account? <a href="{{ url_for('login') }}">Login here</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
