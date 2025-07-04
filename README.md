@@ -131,8 +131,9 @@ To train your own model:
 3. The model will be saved as `model_pred.h5` and used by the Flask backend
 
 ---
- ##🙋‍♀️ Authors & Contributors
- 
-Samarth Shenoy 
-Shilpi Singh 
+## 🙋‍♀️ Authors & Contributors 
+
+1.Venkata Somanath Meda
+2.Samarth Shenoy
+3.Shilpi Singh 
 
